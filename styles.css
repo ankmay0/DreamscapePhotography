@@ -3,7 +3,7 @@
     src: url(Gagalin-Regular.ttf);
 }
 body {
-    font-family: 'gagalin';
+    font-family: "Cinzel", serif;
     color: #fff;
     background-color: #000;
 }
@@ -47,11 +47,11 @@ nav {
     text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 1.1em;
-    padding: 17px 10px;
+    font-size: 0.9em;
+    padding: 5px 10px;
     transition: background-color 1s, border-radius 0.7s, height 1s,width 1s;
-    font-family: "gagalin", sans-serif;
-    font-style: italic; 
+    font-family: "Cinzel", serif;
+    
     flex-wrap: nowrap;
 }
 
@@ -114,13 +114,14 @@ nav {
     margin-top: 0px;
     margin-left: 40px;
     margin-bottom: 0px;
+    font-family: "gagalin";
    
 }
 
 .gradcarousel p{
     text-decoration: none;
     color: #ffffff; 
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 0%;
     margin-left: 40px;
     margin-bottom: 0px;
@@ -130,11 +131,10 @@ nav {
 .gradcarousel h4{
     text-decoration: none;
     color: #ffffff; 
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-top: 90px;
     margin-left: 40px;
     margin-bottom: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .gradcarousel .buttons {
@@ -143,16 +143,18 @@ nav {
     z-index: 4;
     position: absolute;
     top: 300px;
-    left: 100px;
+    left: 85px;
     
 }
 
 .gradcarousel .button {
+    font-size: 0.7em;
     color: #fff;
     padding: 10px;
     z-index: 4;
     background-color: rgba(255, 255, 255, 0.108);
     border-radius: 30px;
+    border: 2px solid white ;
     margin-left: 5px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
