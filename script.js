@@ -14,3 +14,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     event.preventDefault();
     window.location.href = "https://wa.me/+917870185071";
 });
+
+// Add a click event listener to the menu icon
+document.querySelector('.menu-icon').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('open');
+});
