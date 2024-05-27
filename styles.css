@@ -13,6 +13,10 @@ header {
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #fff100;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 nav {
@@ -76,6 +80,7 @@ nav {
     height: 800px;
     overflow: hidden;
     position: relative;
+    margin-top: 100px;
     
 }
 
@@ -182,7 +187,7 @@ nav {
 }
 .studio{
     position: absolute;
-    height:821px;
+    height: 839px;
     width: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(128, 128, 128, 0.500), rgba(0, 0, 0, 0)),
                 linear-gradient(to top, rgba(0, 0, 0, 1), rgba(128, 128, 128, 0.500), rgba(0, 0, 0, 0));
@@ -201,7 +206,7 @@ nav {
 .studio p{
     position: absolute;
     top: 380px;
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: left;
     left: 50px;
     right: 50px;
@@ -329,6 +334,7 @@ form input {
     width: 80%;
     max-width: 400px;
     margin-bottom: 10px;
+    border-radius: 30px;
     padding: 10px;
     border: 1px solid #fff100;
     background-color: #333;
@@ -338,9 +344,15 @@ form input {
 form button {
     padding: 10px 20px;
     border: none;
+    border-radius: 30px;
     background-color: #fff100;
     color: #000;
     cursor: pointer;
+    margin-bottom: 100px;
+}
+
+#contact-form{
+    margin-top: 100px;
 }
 
 footer {
@@ -352,6 +364,7 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 0.8em;
 }
 
 
