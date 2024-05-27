@@ -12,7 +12,7 @@ setInterval(showNextImage, 4000); // Change image every 4 seconds
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    window.location.href = "https://wa.me/+917870185071";
+    window.location.href = "https://wa.me/917870185071?text=Hello";
 });
 
 // Add a click event listener to the menu icon
