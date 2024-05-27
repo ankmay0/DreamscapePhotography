@@ -143,7 +143,10 @@ nav {
 }
 
 .gradcarousel{
+
     background: linear-gradient(to right ,rgba(0, 0, 0, 1), rgba(128, 128, 128, 0.392), rgba(0, 0, 0, 0));
+    
+
     width: 90%;
     height: 90%;
     border-radius: 10px; 
@@ -229,8 +232,8 @@ nav {
     position: absolute;
     height: 839px;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(128, 128, 128, 0.500), rgba(0, 0, 0, 0)),
-                linear-gradient(to top, rgba(0, 0, 0, 1), rgba(128, 128, 128, 0.500), rgba(0, 0, 0, 0));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0)),
+                linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0));
 
 }
 
