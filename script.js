@@ -19,3 +19,18 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 document.querySelector('.menu-icon').addEventListener('click', function() {
     document.querySelector('.nav-links').classList.toggle('open');
 });
+
+
+
+// Optional: Close the dropdown menu when clicking outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.floating-button.quote')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.style.display === "block") {
+                openDropdown.style.display = "none";
+            }
+        }
+    }
+}
