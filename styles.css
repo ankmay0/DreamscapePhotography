@@ -233,17 +233,17 @@ nav {
     padding: 100px;
     gap: 0px;
     margin-top: 20px;
+   
     
 }
 
 .service {
-    padding: 15px;
-    height: auto;
+    
+    height: 200px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-right: 1px solid white;
     border-bottom: 1px solid white;
-    
     
 }
 .service:last-child {
@@ -262,11 +262,38 @@ nav {
     margin-bottom: 10px;
     letter-spacing: 3px;
     font-weight: 1000;
+    
 }
 
 .service p {
     color: #fff;
-    font-size: 1em;
+    font-size: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+.service .button{
+    font-size: 0.7em;
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.108);
+    border-radius: 30px;
+    border: 2px solid white ;
+    margin-left: 5px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.service .button:hover {
+    color: #fff; 
+    border-radius: 30px;
+    border: 2px solid white;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.108); /* Semi-transparent white background on hover */
 }
 
 .team-members {
