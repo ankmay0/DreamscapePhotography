@@ -7,7 +7,6 @@ body {
     color: #fff;
     background-color: #000;
 }
-
 header {
     background-color: #000000;
     padding: 20px;
@@ -18,7 +17,6 @@ header {
     z-index: 1000;
     width: 100%;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,13 +24,11 @@ nav {
     flex-wrap: wrap;
     padding: 5px 20px; /* Added padding for spacing */
 }
-
 .logo img {
     max-width: 150px;
     margin-right: auto; /* Align logo to the right */
     margin-left: 60px;
 }
-
 .nav-links {
     list-style: none;
     padding: 0px;
@@ -44,11 +40,9 @@ nav {
     flex-grow: 5; /* Allow nav-links to expand to fill available space */
     
 }
-
 .nav-links li {
     margin: 0 2px;
 }
-
 .nav-links li a {
     color: #ffffff;
     text-decoration: none;
@@ -61,7 +55,6 @@ nav {
     border-radius: 5px;
     flex-wrap: nowrap;
 }
-
 .nav-links li a:hover {
     border: 1px solid whitesmoke;
     background-color: #fdfdfd3e;
@@ -72,12 +65,10 @@ nav {
     
 
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -87,7 +78,6 @@ nav {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
@@ -95,21 +85,16 @@ nav {
     display: block;
     font-size: 0.9em;
 }
-
 .dropdown-content a:hover {
     background-color: #fff100;
     color: #000;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
 .nav-links li a i {
     margin-right: 5px;
 }
-
 .carousel {
     display: flex;
     justify-content: center;
@@ -123,7 +108,6 @@ nav {
     padding: 50px;
     
 }
-
 .carousel-image {
     width:1170px;
     height: 630px;
@@ -136,13 +120,11 @@ nav {
     
     
 }
-
 .carousel-image.active {
     opacity: 1;
     animation: zoomOut 4s ease-in-out forwards;
     
 }
-
 .gradcarousel{
 
     background: linear-gradient(to right ,rgba(0, 0, 0, 1), rgba(128, 128, 128, 0.392), rgba(0, 0, 0, 0));
@@ -166,7 +148,6 @@ nav {
     
    
 }
-
 .gradcarousel p{
     text-decoration: none;
     color: #ffffff; 
@@ -177,7 +158,6 @@ nav {
     font-family: "Dancing Script", cursive;
     
 }
-
 .gradcarousel h4{
     text-decoration: none;
     color: #ffffff; 
@@ -189,7 +169,6 @@ nav {
     top: 160px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .gradcarousel .buttons {
     
     
@@ -199,7 +178,6 @@ nav {
     left: 210px;
     
 }
-
 .gradcarousel .button {
     font-size: 1em;
     color: #fff;
@@ -212,7 +190,6 @@ nav {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .gradcarousel .button:hover {
     color: #fff; 
     border-radius: 30px;
@@ -221,7 +198,6 @@ nav {
     transition: border-radius 0.7s;
     background-color: rgba(255, 255, 255, 0.108); /* Semi-transparent white background on hover */
 }
-
 .container {
     text-align: center;
     font-family: "Cinzel", serif;
@@ -238,16 +214,12 @@ nav {
                 linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0));
 
 }
-
-
-
 .studio h2{
     position: absolute;
     top: 300px;
     font-size: 3em;
     margin-top: 200px;
 }
-
 .studio p{
     position: absolute;
     top: 380px;
@@ -258,19 +230,15 @@ nav {
     font-family: "Playfair Display", serif;
     
 }
-
 .container img{
  height: 100%;
  width: 100%;
 }
-
-
 .ourservices {
     color: #fff100;
     padding-top: 0px;
     
 }
-
 .services {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -281,7 +249,6 @@ nav {
    
     
 }
-
 .service {
     
     height: 200px;
@@ -299,9 +266,7 @@ nav {
 }
 .service:nth-child(5),.service:nth-child(6),.service:nth-child(7),.service:nth-child(8) {
     border-bottom: none;
- }
-
-
+}
 .service h3 {
     color: #fff100;
     margin-bottom: 10px;
@@ -309,7 +274,6 @@ nav {
     font-weight: 1000;
     
 }
-
 .service p {
     color: #fff;
     font-size: 0.9em;
@@ -317,7 +281,6 @@ nav {
     position: relative;
     top: 10px;
 }
-
 .service .button{
     font-size: 0.9em;
     color: #fff;
@@ -332,7 +295,6 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-
 .service .button:hover {
     color: #fff; 
     border-radius: 30px;
@@ -340,7 +302,6 @@ nav {
     border-width: 1px;
     background-color: rgba(255, 255, 255, 0.108); /* Semi-transparent white background on hover */
 }
-
 .team-members {
     
     display: flex;
@@ -348,12 +309,10 @@ nav {
     gap: 40px;
     margin-top: 50px;
 }
-
 .team-member {
     text-align: center;
     max-width: 300px;
 }
-
 .team-member img {
     border-radius: 50%;
     width: 200px;
@@ -361,18 +320,14 @@ nav {
     object-fit: cover;
     margin-bottom: 20px;
 }
-
 .team-member h3 {
     color: #fff100;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
-
 .team-member p {
     color: #fff;
 }
-
-
 .container h2 {
     color: #fff100;
     font-family: "Cinzel", serif;                                            
@@ -380,8 +335,6 @@ nav {
     top: 90px;
     font-size: 2.5em;                                            
 }
-
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -390,18 +343,15 @@ nav {
     position: relative;
     top: 80px;
 }
-
 .gallery img {
     max-width: 200px;
     border: 2px solid #fff100;
 }
-
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 form input {
     width: 80%;
     max-width: 400px;
@@ -412,7 +362,6 @@ form input {
     background-color: #333;
     color: #fff100;
 }
-
 form button {
     padding: 10px 20px;
     border: none;
@@ -422,23 +371,19 @@ form button {
     cursor: pointer;
     margin-bottom: 100px;
 }
-
 #contact-form{
     margin-top: 100px;
 }
-
 footer {
     background-color: #000;
     text-align: center;
     padding: 20px;
     border-top: 2px solid #fff100;
 }
-
 footer p {
     margin: 0;
     font-size: 0.8em;
 }
-
 /* Floating buttons */
 .floating-buttons {
     position: fixed;
@@ -449,7 +394,6 @@ footer p {
     gap: 10px;
     z-index: 1000;
 }
-
 .floating-button {
     display: flex;
     align-items: center;
@@ -463,22 +407,18 @@ footer p {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
 }
-
 .floating-button:hover {
     color: #000;
 }
-
 .floating-button i {
     font-size: 1.5em;
 }
-
 .floating-button.whatsapp {
     background-color: #25D366;
     color: white;
     display: flex;
     margin-left: 35px;
 }
-
 .floating-button.email {
     background-color: #EA4335;
     color: white;
@@ -497,26 +437,13 @@ footer p {
     background-color: #20b357;
     border: 1px solid #fff100;
 }
-
 .floating-button.email:hover {
     background-color: #d4352a;
     border: 1px solid #fff100;
 }
-
 .floating-button.quote:hover {
     border: 1px solid #fff100;
 }
-
-
-
-
-
-
-
-
-
-
-
 /*@keyframes zoomOut {
     0%, 90% {
         opacity: 1;
@@ -526,10 +453,6 @@ footer p {
         transform: scale(1.2);
     }
 }Keyframe animation*/
-
-
-
-
 /* Add responsive styling */
 @media (max-width: 768px) {
     .nav-links {
@@ -683,7 +606,6 @@ footer p {
         margin-left: 0;
     }
 }
-
 @media (max-width: 480px) {
     .nav-links {
         padding-right: 0;
