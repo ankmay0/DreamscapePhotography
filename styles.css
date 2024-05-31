@@ -12,7 +12,7 @@ header {
     background-color: #000000;
     padding: 20px;
     text-align: center;
-    border-bottom: 0.5px solid #fff100;
+    border-bottom: 0.1px solid #ffffff;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -56,15 +56,16 @@ nav {
     align-items: center;
     font-size: 0.9em;
     padding: 5px 7px    ;
-    transition: background-color 1s, border-radius 0.7s, height 1s,width 1s;
-    font-family: "Cinzel", serif;
-    
+    transition: background-color 0.5s, border-radius 0.5s, height 0.5s,width 0.5s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
     flex-wrap: nowrap;
 }
 
 .nav-links li a:hover {
-    background-color: hsl(0, 0%, 100%);
-    color: #000;
+    border: 1px solid whitesmoke;
+    background-color: #fdfdfd3e;
+    color: #ffffff;
     border-radius: 10px;
     height: auto;
     width: auto;
@@ -205,7 +206,7 @@ nav {
     padding: 10px;
     z-index: 4;
     background-color: rgba(255, 255, 255, 0.108);
-    border-radius: 30px;
+    border-radius: 15px;
     border: 2px solid white ;
     margin-left: 5px;
     text-decoration: none;
@@ -216,7 +217,8 @@ nav {
     color: #fff; 
     border-radius: 30px;
     border: 2px solid white;
-    border-width: 1px;
+    border-width: 1px 1s;
+    transition: border-radius 0.7s;
     background-color: rgba(255, 255, 255, 0.108); /* Semi-transparent white background on hover */
 }
 
