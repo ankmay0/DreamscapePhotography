@@ -3,7 +3,7 @@
     src: url(Gagalin-Regular.ttf);
 }
 body {
-    font-family: "Cinzel", serif;
+    
     color: #fff;
     background-color: #000;
 }
@@ -330,7 +330,7 @@ nav {
 }
 .container h2 {
     color: #fff100;
-    font-family: "Cinzel", serif;                                            
+                                              
     position: relative;
     top: 90px;
     font-size: 2.5em;                                            
@@ -678,3 +678,6 @@ footer p {
         width: 80%;
     }
 }
+
+
+
