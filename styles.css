@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'gagalin';
+    src: url(Gagalin-Regular.ttf);
+}
 body {
     font-family: "Syncopate", sans-serif;
     color: #fff;
@@ -148,12 +151,13 @@ nav {
 .gradcarousel p{
     text-decoration: none;
     color: #ffffff; 
-    font-size: 1.4em;
+    font-size: 2.3em;
     margin-top: 0px;
-    margin-left: 140px;
+    margin-left: 120px;
     margin-bottom: 0px;
-    font-family: "Dancing Script", cursive;
-    
+    font-family: "Sacramento", cursive;
+    position: absolute;
+    top: 380px    
 }
 .gradcarousel h4{
     text-decoration: none;
@@ -164,7 +168,7 @@ nav {
     margin-bottom: 0px;
     position: absolute;
     top: 160px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Syncopate", sans-serif;
 }
 .gradcarousel .buttons {
     
@@ -172,7 +176,8 @@ nav {
     z-index: 4;
     position: absolute;
     top: 470px;
-    left: 210px;
+    left: 180px;
+    
     
 }
 .gradcarousel .button {
@@ -185,8 +190,7 @@ nav {
     border: 2px solid white ;
     margin-left: 5px;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: "Syncopate", sans-serif;}
 .gradcarousel .button:hover {
     color: #fff; 
     border-radius: 30px;
@@ -197,7 +201,8 @@ nav {
 }
 .container {
     text-align: center;
-    font-family: "Cinzel", serif;
+    font-family: "Sacramento", cursive;
+    font-size: 1.4em;
     
 }
 .aboutus{   
@@ -224,7 +229,7 @@ nav {
     text-align: left;
     left: 50px;
     right: 50px;
-    font-family: "Playfair Display", serif;
+    font-family: "Syncopate", sans-serif;
     
 }
 .container img{
