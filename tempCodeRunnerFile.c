@@ -1,17 +1,21 @@
-#include <stdio.h> // This line includes the standard input/output library for C programs
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
 
-int main() {
-    int num1, num2; // These lines declare two integer variables
+int main()
+{
+    char * s ="hi";
+        
+    char * t = s;
 
-    printf("Enter the first number: "); // The printf function prints a message to the user
-    scanf("%d", &num1); // The scanf function takes input from the user and stores it in num1
+    if(strlen(t)>0)
+    {
+        t[0] = toupper(t[0]);
+    }
 
-    printf("Enter the second number: ");
-    scanf("%d", &num2);
+    printf("%s\n", s);
+    printf("%s\n", t);
 
-    int sum = num1 + num2; // Assigning the sum of the two numbers to a variable called 'sum'
-
-    printf("The sum of the two numbers is: %d\n", sum); // The printf function prints the result to the user
-
-    return 0; // Indicating that the program has ended successfully
 }
+
+

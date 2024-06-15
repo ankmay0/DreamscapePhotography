@@ -683,3 +683,48 @@ footer p {
 
 
 
+
+
+
+
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #212121;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+  }
+  
+  .card div {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #212121;
+    border: 1px solid #ff5a91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card div:hover {
+    flex: 4;
+  }
+  
+  .card div img {
+    min-width: 100%;
+    min-height: 100%;
+    transition: all .5s;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+  
+  .card div:hover img {
+    transform: scale(1.1);
+  }
+  
